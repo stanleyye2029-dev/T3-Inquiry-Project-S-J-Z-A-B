@@ -8,27 +8,29 @@
 </head>
 <body>
     <header>
-        <img src="" alt="logo"/>
+        <img src=".." alt="logo"/>
         <h1>Coss Beauty Lounge</h1>
-        <a href="catalog.html">Catalog</a>
-        <a href="checkout.html">Checkout</a>
-        <a href="hiring.html">Hiring</a>
-        <a href="help.html">Help</a>
+        <div class="nav-bar">
+            <a href="catalog.html">Catalog</a>
+            <a href="checkout.html">Checkout</a>
+            <a href="hiring.html">Hiring</a>
+            <a href="help.html">Help</a>
+        </div>
     </header>
     <main>
         <div id="Hero-section">
-            <div>
+            <div class="Acrylic-section">
                 <img src="..." alt="Acrylic">
                 <p>$25</p>
                 <p>$95</p>
             </div>
-            <div>
+            <div class="Gel-X">
                 <img src="..." alt="Gel X">
                 <p>$15</p>
                 <p>$90</p>
             </div>
         </div>
-        <div calss="wax-section">
+        <div class="wax-section">
             <div>
                 <img src="..." alt="Body wax">
                 <p>$345</p>
@@ -46,10 +48,14 @@
                 <p>$28</p>
             </div>
         </div>
-        <div class="Facial-section">
+        <div id="Facial-section">
             <div>
                 <img src="..." alt="Acne Facial"/>
-                <p>$90</p>
+                 <p>$90</p>
+                <img src="..." alt="Deep cleaning Facial"/>
+                 <p>$80</p>
+                <img src="..." alt="Hydrating Facial"/>
+                <p>$70</p>
             </div>
         </div>
         <div class="nail-section">
@@ -67,6 +73,18 @@
         </div>
         <div class="booking-section">
            <H3>Book Here</H3>
+           <input type="text" placeholder="name"/>
+           <input type="text"placeholder="phone-number"/>
+           <input type=" text" placeholder="Email"/>
+           <input type="text" placeholder="Adress"/>
+           <div>
+            <input type="text" placeholder="Item 1"/>
+            <input type="text" placeholder="Item 1"/>
+            <p> More options
+                <input type="radio"placeholder="add more option">
+            </p>
+            <button>Submit</button>
+           </div>
         </div>
     </main>
 </body>

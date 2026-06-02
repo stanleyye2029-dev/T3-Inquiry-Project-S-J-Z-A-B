@@ -1,0 +1,59 @@
+*{
+      box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+header{
+    weight:100vw;
+    height:5vh;
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#Hero-section{
+    display:flex;
+    justify-content:space-around;
+    weight:100vw;
+    height:30vh;
+}
+
+.Acrylic-section{
+    background-color: gold;
+    padding: 5%;
+}
+.Gel-X{
+    background-color: aqua;
+    padding: 5%;
+}
+.wax-section{
+display: flex;
+width: 100vw;
+height: 15vh;
+justify-content: space-around;
+background-color: blue;
+align-items: center;
+}
+#Facial-section{
+  display: flex;
+width: 100vw;
+height: 15vh;
+justify-content: space-around;
+background-color: aqua;
+align-items: center;
+}
+.nail-section{
+    width: 100vw;
+    height:15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
+}
