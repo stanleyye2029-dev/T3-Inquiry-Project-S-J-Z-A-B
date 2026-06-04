@@ -21,12 +21,18 @@ header {
     border: 5px solid rgb(236, 84, 109);
     display: flex;
     flex-direction: column;
+    background-image: url(assets-stanley/photo-1604654894611-6973b376cbde.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hot-picks-section {
     width: 100vw;
     height: 50vh;
     border: 5px solid rgb(243, 93, 118);
+    display: flex;
+    flex-direction: column;
 }
 
 .checkout-section {
@@ -55,4 +61,48 @@ header {
 .checkout-sub-section-1 {
     display: flex;
     flex-direction: column;
+}
+
+.hero-heading {
+    margin: 20px;
+    color: white;
+    background-color: black;
+}
+
+.hero-button {
+    margin: 20px;
+}
+
+.card-1 {
+    background-image: url(assets-stanley/photo-1604654894611-6973b376cbde.avif);
+    width: 33vw;
+    height: 40vh;
+    margin: 10px;
+}
+
+.card-2 {
+    background-image: url(assets-stanley/photo-1612887390768-fb02affea7a6.avif);
+    width: 33vw;
+    height: 40vh;
+    margin: 10px;
+}
+
+.card-3 {
+    background-image: url(assets-stanley/photo-1607779097040-26e80aa78e66.avif);
+    width: 33vw;
+    height: 40vh;
+    margin: 10px;
+}
+
+.cards-section {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
