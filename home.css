@@ -1,0 +1,115 @@
+header{
+    background-color: lightpink;
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    color: black;
+    position: sticky;
+      top: 0;
+     
+}
+
+.hero-image{
+     background-image:  url("image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+   height: 50vh;
+   
+}
+
+.btn-practice{
+    border: none;
+  background-color: inherit;
+  padding: 2vw 2vh;
+  font-size: 16px;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  text-decoration-color:white;
+}
+.logo{
+    height:5vh;
+    display:flex;
+    width: 5vw;
+    
+}
+
+.hello-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: lightpink;
+    font-size:xx-large;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 30vh;
+    width: 100vw;
+}
+.about-section{
+    display:flex ;
+    flex-direction: row-reverse;
+    justify-content: start;
+    background-color: lightpink;
+    font-size:xx-large;
+       height: 30vh;
+    width: 100vw;
+}
+.image-hello{
+margin-right: 3%;
+width: 40vh;
+border:solid black;
+
+}
+.image-about{
+margin-left: 3%;
+width: 30vh;
+border:solid black;
+}
+
+.catalog-button{
+background-color: floralwhite;
+border:solid black;
+padding-left: 4vw;
+padding-right: 4vw;
+justify-content: center;
+align-items: center;
+}
+.hiring-button{
+background-color: floralwhite;
+border:solid black;
+padding-left: 4vw;
+padding-right: 4vw;
+justify-content: center;
+align-items: center;
+}
+.help-button{
+background-color: floralwhite;
+border:solid black;
+padding-left: 4vw;
+padding-right: 4vw;
+justify-content: center;
+align-items: center;
+}
+.bottom-buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:100vw;
+    align-items: center;
+    
+}
+.hello{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
