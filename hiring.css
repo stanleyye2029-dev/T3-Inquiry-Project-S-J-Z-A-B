@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;  
+  justify-content: space-between; 
+  padding: 40px;
+  gap: 30px;
+}
+
+.hero-img {
+  width: 50%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  
+}
+
+.content {
+  flex: 1;
+}
+
+#positions-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
