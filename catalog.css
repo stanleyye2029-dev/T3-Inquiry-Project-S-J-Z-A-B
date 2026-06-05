@@ -45,22 +45,26 @@ header {
 }
 
 .shopping-list {
-    width: 100%;
-    height: 45%;
+    flex: 1;
     border: 5px solid rgb(243, 93, 118);
     display: flex;
     flex-direction: column;
     gap: 50px;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .final-sub-section {
     display: flex;
     flex-direction: column;
+    width: 45%;
 }
 
 .checkout-sub-section-1 {
     display: flex;
     flex-direction: column;
+    width: 45%;
 }
 
 .hero-heading {
