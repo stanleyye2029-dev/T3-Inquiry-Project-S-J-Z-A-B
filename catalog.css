@@ -11,7 +11,7 @@ header {
     display: flex;
     width: 100vw;
     justify-content: space-between;
-    border: 5px solid rgb(243, 86, 112);
+    border: 5px solid rgb(236, 84, 109);
     margin: 0px;
 }
 
@@ -25,6 +25,10 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.hot-picks-heading {
+
 }
 
 .hot-picks-section {
@@ -68,13 +72,22 @@ header {
 }
 
 .hero-heading {
+    width: 47vw;
+    padding: 10px;
     margin: 20px;
-    color: white;
-    background-color: black;
+    color: palevioletred;
+    background-color: white;
+    border: 5px solid pink;
+    border-radius: 10px;
 }
 
 .hero-button {
     margin: 20px;
+    background-color: white;
+    color: palevioletred;
+    font-size: 2rem;
+    border: 5px solid pink;
+    border-radius: 10px;
 }
 
 .card-1 {
