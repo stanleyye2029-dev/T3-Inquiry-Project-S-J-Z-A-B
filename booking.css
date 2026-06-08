@@ -7,7 +7,7 @@
 header{
     width:100vw;
     height:5vh;
-    background-color:black;
+    background-color:pink;
     color: white;
     display: flex;
     flex-direction: row;
@@ -26,19 +26,25 @@ header{
 }
 
 .Acrylic-section{
-    background-color: palevioletred;
-    padding: 5%;
+    background-color: lightpink;
+    padding: 4.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .Gel-X{
-    background-color: pink;
-    padding: 5%;
+    background-color:  lightpink;
+    padding: 4.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .wax-section{
 display: flex;
 width: 100vw;
 height: 20vh;
 justify-content: space-around;
-background-color: plum;
+background-color: white;
 align-items: center;
 }
 #Facial-section{
@@ -46,7 +52,7 @@ align-items: center;
 width: 100vw;
 height: 20vh;
 justify-content: space-around;
-background-color:deeppink;
+background-color:lightpink;
 align-items: center;
 }
 .nail-section{
@@ -55,11 +61,34 @@ align-items: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:fuchsia
+    background-color:white;
 }
 .booking-section{
       width: 100vw;
     height:10vh;
     display: flex;
+    align-items: center;
+}
+
+footer {
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img{
+    height: 400%;
+    width: 400%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
